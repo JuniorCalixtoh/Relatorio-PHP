@@ -32,17 +32,26 @@ tfoot td {
     text-align: center; 
 }
 .btn {
-    display:inline-block;
-    padding:10px 15px;
-    background:#007BFF;
-    color:#fff;
-    text-decoration:none;
-    border-radius:5px;
-    margin-top:10px;
-    text-align:center;
-    cursor:pointer;
-    border:none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; /* texto em cima, ícone embaixo */
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-radius: 5px;
 }
+.btn-text {
+    margin-bottom: 5px;
+}
+
+.btn-icon {
+    font-size: 18px; /* tamanho do ícone */
+}
+
 .btn:hover { 
     background:#0056b3; 
 }
